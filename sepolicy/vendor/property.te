@@ -1,7 +1,2 @@
-# if u wanna learn about those macros check this out:
-# https://source.android.com/devices/architecture/configuration/add-system-properties?hl=en#step2-determine-access-levels
 # Power
-vendor_internal_prop(vendor_power_prop);
-
-# Thermal
-vendor_internal_prop(vendor_thermal_normal_prop);
+type vendor_power_prop, property_type;
