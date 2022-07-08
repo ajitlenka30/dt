@@ -4,7 +4,6 @@ ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
 ro.vendor.product.cpu.abilist64=arm64-v8a
 ro.board.platform=sm6150
-ro.hwui.use_vulkan=
 ro.vendor.colorpick_adjust=true
 ro.vendor.all_modes.colorpick_adjust=true
 ro.vendor.display.ad=1
@@ -68,10 +67,8 @@ persist.vendor.dpm.nsrm.bkg.evt=3955
 
 persist.radio.NO_STAPA=1
 
-persist.vendor.radio.redir_party_num=1
-
 persist.vendor.radio.rat_on=combine
-
+persist.vendor.qti.telephony.vt_cam_interface=2
 persist.vendor.radio.force_on_dc=true
 
 persist.sys.strictmode.disable=true
@@ -142,7 +139,7 @@ persist.sys.wfd.virtual=0
 
 tunnel.audio.encode = true
 
-audio.offload.buffer.size.kb=32
+audio.offload.buffer.size.kb=256
 
 av.offload.enable=true
 
@@ -187,8 +184,6 @@ persist.vendor.radio.force_ltd_sys_ind=1
 persist.vendor.radio.data_ltd_sys_ind=1
 
 ro.vendor.mtp_boost.scheme=true
-
-debug.sf.latch_unsignaled=1
 
 ro.build.shutdown_timeout=2
 persist.vendor.quick.charge=1
